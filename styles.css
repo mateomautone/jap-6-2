@@ -1,11 +1,23 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: rgb(27, 82, 153);
 }
 
 .image{
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+}
+
+h1 {
+    color: azure;
+}
+
+h2 {
+    color: goldenrod;
+}
+
+p {
+    color: rgb(252, 243, 221);
 }
 
 .link-button {
@@ -25,6 +37,27 @@ body {
 
 h1{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
     font-style: oblique;
@@ -32,4 +65,7 @@ h1{
 
 h1:hover {
     text-decoration: underline;
+
+h2, p, .link-button {
+    margin-left: 5%;
 }
