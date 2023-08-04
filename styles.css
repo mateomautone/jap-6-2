@@ -37,3 +37,10 @@ p{
 .link-button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+    
+}
