@@ -16,6 +16,9 @@ h2 {
     color: goldenrod;
 }
 
+p {
+    color: rgb(252, 243, 221);
+}
 
 .link-button {
     text-decoration: none;
