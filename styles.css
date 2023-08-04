@@ -36,3 +36,7 @@ h1{
     font-size: 60px;
     font-style: oblique;
 }
+
+h2, p, .link-button {
+    margin-left: 5%;
+}
