@@ -30,10 +30,14 @@ p {
     box-shadow: 2px 3px #888888;
 }
 
+.link-button:hover {
+    color: blue;
+    background-color: #888888;
+}
+
 h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 h2{
@@ -58,6 +62,9 @@ p{
     font-size: 60px;
     font-style: oblique;
 }
+
+h1:hover {
+    text-decoration: underline;
 
 h2, p, .link-button {
     margin-left: 5%;
