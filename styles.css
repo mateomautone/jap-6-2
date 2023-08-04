@@ -18,9 +18,18 @@ body {
     box-shadow: 2px 3px #888888;
 }
 
+.link-button:hover {
+    color: blue;
+    background-color: #888888;
+}
+
 h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
     font-style: oblique;
+}
+
+h1:hover {
+    text-decoration: underline;
 }
