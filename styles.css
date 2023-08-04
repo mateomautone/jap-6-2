@@ -1,11 +1,23 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: rgb(27, 82, 153);
 }
 
 .image{
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+}
+
+h1 {
+    color: azure;
+}
+
+h2 {
+    color: goldenrod;
+}
+
+p {
+    color: rgb(252, 243, 221);
 }
 
 .link-button {
